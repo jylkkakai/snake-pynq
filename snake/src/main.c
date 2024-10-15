@@ -5,7 +5,6 @@
 // #include "../../snake_bsp/ps7_cortexa9_0/include/xparameters.h"
 // #include "../../snake_bsp/ps7_cortexa9_0/include/xscugic.h"
 #include "../../snake_bsp/ps7_cortexa9_0/include/xttcps.h"
-#include "Interrupt_setup.h"
 #include "Pixel.h"
 #include "dnn.h"
 #include "platform.h"
