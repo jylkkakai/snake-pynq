@@ -1,10 +1,10 @@
 
 
 build_src_dbg:
-	$(MAKE) -C led_matrix/Debug/ all
+	$(MAKE) -C snake/Debug/ all
 	
 build_libs:
-	$(MAKE) -C led_matrix_bsp/ all
+	$(MAKE) -C snake_bsp/ all
 
 run_on_device:
 	xsdk -batch "run_program.tcl"

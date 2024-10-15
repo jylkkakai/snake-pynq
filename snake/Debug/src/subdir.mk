@@ -7,7 +7,6 @@ LD_SRCS += \
 ../src/lscript.ld 
 
 C_SRCS += \
-../src/Interrupt_setup.c \
 ../src/Pixel.c \
 ../src/dnn.c \
 ../src/main.c \
@@ -15,22 +14,17 @@ C_SRCS += \
 ../src/snake.c 
 
 S_UPPER_SRCS += \
-../src/blinker.S 
 
 OBJS += \
-./src/Interrupt_setup.o \
 ./src/Pixel.o \
-./src/blinker.o \
 ./src/dnn.o \
 ./src/main.o \
 ./src/platform.o \
 ./src/snake.o 
 
 S_UPPER_DEPS += \
-./src/blinker.d 
 
 C_DEPS += \
-./src/Interrupt_setup.d \
 ./src/Pixel.d \
 ./src/dnn.d \
 ./src/main.d \
